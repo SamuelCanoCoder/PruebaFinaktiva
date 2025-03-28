@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+    position: relative;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;;
+    margin-top: 150px;
+}
+
+.btn_register{
+    background-color: #8DFFC9;
+    border: none;
+    color: #000000;
+}
+
+.gradient-overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at 50% 50%, rgba(141, 255, 201, 0.5) 0%, black 80%);
+    transition: background 0.1s ease;
+}

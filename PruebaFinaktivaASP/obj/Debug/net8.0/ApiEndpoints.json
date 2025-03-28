@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "EventLoggerAPI.Controllers.EventLogsController",
+    "Method": "GetEvents",
+    "RelativePath": "api/EventLogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventLoggerAPI.Controllers.EventLogsController",
+    "Method": "CreateEvent",
+    "RelativePath": "api/EventLogs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventLog",
+        "Type": "EventLoggerAPI.Models.EventLog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

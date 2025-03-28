@@ -1,0 +1,12 @@
+body {
+    background: black !important;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.btn_consulter{
+    background-color: #8DFFC9 !important;
+    border: none;
+    color: #000000;
+}
