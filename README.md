@@ -38,6 +38,11 @@ Configura la conexión en connection/connection.php.
 
 Inicia el servidor y accede a http://localhost/PruebaFinaktiva.
 
+Para probar los registros via API puede utilizar Postman y enviar los parametros como se ve en la imagen.
+
+![image](https://github.com/user-attachments/assets/a3363edf-dcd2-414c-a303-50afc53f5adb)
+
+
 Para la versión en C# y ASP.NET Core (opcional):
 
 Asegúrese de tener .NET SDK instalado.
