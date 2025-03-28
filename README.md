@@ -40,10 +40,13 @@ Inicia el servidor y accede a http://localhost/PruebaFinaktiva.
 
 Al iniciar encontrará dos opciones principales:
 ![image](https://github.com/user-attachments/assets/54513e37-da54-4894-af41-545608c23ae1)
+
 En la interfaz para consultar podrá revisar los registros segun la fecha que deseé y según el tipo de registro tambien, si no aplica ningun filtro el sistema mostrará todos:
 ![image](https://github.com/user-attachments/assets/b6922411-d445-47a4-adf9-32e6c168faa3)
+
 Y, en la interfaz para registrar habrá un formulario sencillo que se activará al llenar el campo obligatorio y al dar clic en el botón "Registrar Evento"
 ![image](https://github.com/user-attachments/assets/e4f72034-9571-4c04-87cb-9dddb0073a76)
+
 Mostrará la alerta respectiva según el resultado del sistema.
 
 Para probar los registros via API puede utilizar Postman y enviar los parametros como se ve en la imagen.
@@ -60,6 +63,7 @@ Configura la cadena de conexión en appsettings.json.
 Ejecuta los comandos:
 
 dotnet restore
+
 dotnet run
 
 Accede a la API en https://localhost:5001.
